@@ -3,14 +3,56 @@
 
 Isotope data (δ<sup>2</sup>H [δD] and δ<sup>18</sup>O) from stems and soil collected at New Mexico Elevation Gradient sites in 2019 and 2021.
 
-## Field and Lab Methods
+## Field Methods 
 
-We collected stems and soil from a subset of [NMEG sites](https://www.litvaklab.org/new-mexico-elevation-gradient.html): a creosote shrubland (US-Ses) sampled in October 2019 and June 2021, juniper savannah (US-Wjs) sampled in June 2021, piñon-juniper woodland (US-Mpj) sampled in October 2019 and June 2021, and ponderosa pine forest (US-Vcp) sampled in 2019. Stems and soil were collected using methods described in [Samuels-Crow et al. (2023) ](https://www.frontiersin.org/articles/10.3389/ffgc.2023.1116786/full). Samples collected in 2019 were prepared and analyzed using methods described in [Samuels-Crow et al. (2023) ](https://www.frontiersin.org/articles/10.3389/ffgc.2023.1116786/full). Samples collected in 2021 were prepared and analyzed at [University of Wyoming's Stable Isotope Facility](https://www.uwyo.edu/sif/index.html).
+We collected stems and soil from a subset of [NMEG sites](https://www.litvaklab.org/new-mexico-elevation-gradient.html): a creosote shrubland (US-Ses) and piñon-juniper woodland (US-Mpj) sampled in October 2019 and June 2021, juniper savannah (US-Wjs) sampled in June 2021, and ponderosa pine forest (US-Vcp) sampled in 2019. Stems and soil were collected using methods described in [Samuels-Crow et al. (2023) ](https://www.frontiersin.org/articles/10.3389/ffgc.2023.1116786/full), but we provide some basic details here. 
+
+### Stem and Soil Collection
+
+At each site, we selected 5 plants from each of the dominant woody species (i.e., 5 creosote [*Larrea tridentata* (LATR)] at US-Ses, 5 single-seed juniper [*Juniperus monosperma* (JUMO)] at US-Wjs and US-Mpj, 5 piñon trees [*Pinus edulis* (PIED)] at US-Mpj, and 5 ponderosa pine trees [*Pinus ponderosa* (PIPO)] at US-Vcp. We characterized each sampled plant and took 3 mid-canopy stems for xylem water extraction. For tree or shrub number 1 for each species at each site, we kept the stems separate to evaluate within-tree variability. We pooled the 3 stems for each of the other 4 plants for a total of 7 stem samples per species per site.
+
+We used an unlined soil core sampler to collect soil samples from multiple soil depths adjacent to each of the focal plants. We transfered soil from the core sampler to a large ziploc immediately and homogenized the sample before filling the sample vial. We dug separate soil pits at each site to characterize soil texture.
+
+### Minimizing evaporation
+
+The sites are located in semiarid ecosystems, so we took great care to minimize evaporation during isotope sample collection. We placed samples in screw-top Wheaton glass vials (24-mL) and immediately sealed them with parafilm before putting them in a cooler filled with dry ice in the field. We stored all samples in a chest freezer located in a cold room until analyzed. 
+
+## Lab Methods
+
+
+
+### 2019 Analytical Methods
+
+Samples collected in 2019 were prepared and analyzed using methods described in [Samuels-Crow et al. (2023) ](https://www.frontiersin.org/articles/10.3389/ffgc.2023.1116786/full). We cryogenically extracted water from stem and soil samples on a vacuum line, adding activated charcoal as needed to remove organic compounds, especially in piñon stem water. All soil and stem samples were analyzed on a Picarro L2140-*i* triple isotope analyzer in Northern Arizona University's (NAU) Arizona Climate and Ecosystems (ACE) Isotope Laboratory. We used in-house calibration standards that span values from −142.65 to 1.3‰ (δ<sup>2</sup>H) and −18.74 to −0.09‰ (δ18O) to calculate stretching values ([Sharp, 2017](https://digitalrepository.unm.edu/unm_oer/1/)). See Table 1 for more information. We used deionized tap water to monitor instrument drift. The in-house standards were calibrated to international standards on a DELTA plus XL mass spectrometer.
+
+**Table 1. Isotopic Values for Calibration and Drift Standards (2019)**
+| Standard Name | Accepted δ<sup>18</sup>O | Accepted δ<sup>2</sup>H | Standard Type |
+|---------------|-----------------|----------------|---------------|
+| Kona | -0.09 | 1.3| Calibration |
+| Iceland | -7.8 | -51.12 | Calibration |
+| Alaska | -18.74 | -142.65 | Calibration |
+| DI Water (Flagstaff Tap)| -11.42 | -81.19 | Drift |
+
+There was no systematic drift during sample analysis, and reported values were corrected based on calibration standards.
+
+### 2021 Analytical Methods
+
+NAU's cryogemic extraction line was unavailable in 2021, so samples collected in 2021 were prepared and analyzed at [University of Wyoming's Stable Isotope Facility](https://www.uwyo.edu/sif/index.html) (UWyoSIF). Water was cryogenically extracted from stems and soil using standard methods. Samples were analyzed using a Temperature Conversion Elemental Analyzer (TC/EA) coupled to a Thermo Delta Plus Isotope Ratio Mass Spectrometer (IRMS). UWyoSIF staff used 2 in-house calibration standards and a drift standard (See Table 2).
+
+**Table 2. Isotopic Values for Calibration and Drift Standards (2021)**
+| Standard Name | Accepted δ<sup>18</sup>O | Accepted δ<sup>2</sup>H | Standard Type |
+|---------------|-----------------|----------------|---------------|
+| UWSIF 301 | -3.5 | -14.4 | Calibration |
+| UWSIF 302 | -19.6 | -151.7 | Calibration |
+| UWSIF 303 | -15.4 | -114.5 | Drift |
+
+Again, there was no systematic drift during sample analysis, and reported values were corrected based on calibration standards.
 
 ## Data Columns
 
 This repository includes one data file with isotope results from the 2019 and 2021. The column headers in the file are as follows
 
+**Table 3. Column Headers for NMEGIsotopeData.csv file**
 | Column Name | Explanation |
 |-------------|-------------|
 | Vial Number | number for field vial |
