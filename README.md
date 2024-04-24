@@ -7,7 +7,13 @@ Isotope data (δ<sup>2</sup>H [δD] and δ<sup>18</sup>O) from stems and soil co
 
 ### 1.1. Field Methods 
 
-We collected stems and soil from a subset of [NMEG sites](https://www.litvaklab.org/new-mexico-elevation-gradient.html): a creosote shrubland (US-Ses) and piñon-juniper woodland (US-Mpj) sampled in October 2019 and June 2021, juniper savannah (US-Wjs) sampled in June 2021, and ponderosa pine forest (US-Vcp) sampled in 2019. Stems and soil were collected using methods described in [Samuels-Crow et al. (2023) ](https://www.frontiersin.org/articles/10.3389/ffgc.2023.1116786/full), but we provide some basic details here. 
+### *1.1.1. Plant Characterization*
+
+We collected stems and soil from a subset of [NMEG sites](https://www.litvaklab.org/new-mexico-elevation-gradient.html): a creosote shrubland (US-Ses) and piñon-juniper woodland (US-Mpj) sampled in October 2019 and June 2021, juniper savannah (US-Wjs) sampled in June 2021, and ponderosa pine forest (US-Vcp) sampled in 2019. We measured the sampled plants at US-Ses, US-Wjs, and US-Mpj in 2021. We used a diameter tape to measure diameter at ground level (DGL) of piñon and juniper trees. Since many of the juniper trees were multi-stem, we selected the largest stem to measure. DGL measurements were taken within 10 cm of the ground. We used a laser range finder to measure the height and canopy dimensions of piñon and juniper. We first measured the vertical distance to the base of the tree, then the vertical distance to the top of the canopy, and then took the difference between the top and base of the tree. For canopy dimensions, we positioned a laser "target" at the edge of the canopy and measured the horizontal distande. We measured the height and canopy dimensions of creosote shrubs using a tape.
+
+### *1.1.2. Stem and Soil Sample Collection*
+
+Stems and soil were collected using methods described in [Samuels-Crow et al. (2023) ](https://www.frontiersin.org/articles/10.3389/ffgc.2023.1116786/full), but we provide some basic details here. 
 
 At each site, we selected 5 plants from each of the dominant woody species (i.e., 5 creosote [*Larrea tridentata* (LATR)] at US-Ses, 5 single-seed juniper [*Juniperus monosperma* (JUMO)] at US-Wjs and US-Mpj, 5 piñon trees [*Pinus edulis* (PIED)] at US-Mpj, and 5 ponderosa pine trees [*Pinus ponderosa* (PIPO)] at US-Vcp. We characterized each sampled plant and took 3 mid-canopy stems for xylem water extraction. For tree or shrub number 1 for each species at each site, we kept the stems separate to evaluate within-tree variability. We pooled the 3 stems for each of the other 4 plants for a total of 7 stem samples per species per site.
 
@@ -78,6 +84,24 @@ This repository includes (1) "NMEGIsotopeData.csv," which contains δD and δ<su
 | 40 | 30-40 cm | 2021 |
 | 50 | 40-50 cm | 2021 |
 | 60 | 50-60 cm | 2021 |
+
+Plant characteristics are recorded in the file PlantChar.csv.
+
+**Table 5. Column headers for PlantChar.csv file**
+
+| Column Name | Explanation |
+|-------------|-------------|
+| Site | NMEG site name |
+| Species | species abbreviation (see section 1.1.2 |
+| Plant | plant number where stem or soil sample was taken |
+| Lat | Latitude in decimal degrees (datum WGS84) |
+| Lon | Longitude in decimal degrees (datum WGS84) |
+| Base of tree (m) | vertical distance from laser range finder to base of tree |
+| Top of tree (m) | vertical distance from laser range finder to top of canopy |
+| N-S Canopy dimension (m) | canopy width in north-south direction |
+| E-W Canopy dimension (m) | canopy width in north-south direction |
+| % Live canopy | estimated percent living canopy |
+| DGL (cm) | diameter at ground level |
 
 ## 3. Acknowledgements
 
