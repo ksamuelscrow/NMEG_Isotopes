@@ -5,7 +5,7 @@ Isotope data (δ<sup>2</sup>H [δD] and δ<sup>18</sup>O) from stems and soil co
 
 ## 1. Methods
 
-### 1.1 Field Methods 
+### 1.1. Field Methods 
 
 We collected stems and soil from a subset of [NMEG sites](https://www.litvaklab.org/new-mexico-elevation-gradient.html): a creosote shrubland (US-Ses) and piñon-juniper woodland (US-Mpj) sampled in October 2019 and June 2021, juniper savannah (US-Wjs) sampled in June 2021, and ponderosa pine forest (US-Vcp) sampled in 2019. Stems and soil were collected using methods described in [Samuels-Crow et al. (2023) ](https://www.frontiersin.org/articles/10.3389/ffgc.2023.1116786/full), but we provide some basic details here. 
 
@@ -15,9 +15,9 @@ We used an unlined soil core sampler to collect soil samples from multiple soil 
 
 The sites are located in semiarid ecosystems, so we took great care to minimize evaporation during isotope sample collection. We placed samples in screw-top Wheaton glass vials (24-mL) and immediately sealed them with parafilm before putting them in a cooler filled with dry ice in the field. We stored all samples in a chest freezer located in a cold room until analyzed. 
 
-### 1.2 Lab Methods
+### 1.2. Lab Methods
 
-#### 1.2.1 2019 Lab Methods
+### *1.2.1. 2019 Lab Methods*
 
 Samples collected in 2019 were prepared and analyzed using methods described in [Samuels-Crow et al. (2023) ](https://www.frontiersin.org/articles/10.3389/ffgc.2023.1116786/full). We cryogenically extracted water from stem and soil samples on a vacuum line, adding activated charcoal as needed to remove organic compounds, especially in piñon stem water. All soil and stem samples were analyzed on a Picarro L2140-*i* triple isotope analyzer in Northern Arizona University's (NAU) Arizona Climate and Ecosystems (ACE) Isotope Laboratory. We used in-house calibration standards that span values from −142.65 to 1.3‰ (δ<sup>2</sup>H) and −18.74 to −0.09‰ (δ18O) to calculate stretching values ([Sharp, 2017](https://digitalrepository.unm.edu/unm_oer/1/)). See Table 1 for more information. We used deionized tap water to monitor instrument drift. The in-house standards were calibrated to international standards on a DELTA plus XL mass spectrometer.
 
@@ -31,7 +31,7 @@ Samples collected in 2019 were prepared and analyzed using methods described in 
 
 There was no systematic drift during sample analysis, and reported values were corrected based on calibration standards.
 
-#### 1.2.2 2021 Lab Methods
+### *1.2.2. 2021 Lab Methods*
 
 NAU's cryogemic extraction line was unavailable in 2021, so samples collected in 2021 were prepared and analyzed at [University of Wyoming's Stable Isotope Facility](https://www.uwyo.edu/sif/index.html) (UWyoSIF). Water was cryogenically extracted from stems and soil using standard methods. Samples were analyzed using a Temperature Conversion Elemental Analyzer (TC/EA) coupled to a Thermo Delta Plus Isotope Ratio Mass Spectrometer (IRMS). UWyoSIF staff used 2 in-house calibration standards and a drift standard (See Table 2).
 
@@ -63,7 +63,7 @@ This repository includes (1) "NMEGIsotopeData.csv," which contains δD and δ<su
 | δ<sup>18</sup>O | δ<sup>18</sup>O results in per mil |
 | Notes | Any quality control notes |
 
-** Table 4. Soil Depths sampled**
+**Table 4. Soil Depths sampled**
 
 | soil max depth (cm) | soil depth interval | sampling year
 |---------------------|--------------------------|----------|
