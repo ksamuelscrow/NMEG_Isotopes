@@ -3,11 +3,11 @@
 
 ### Affiliations
 
-<sup>1</sup> School of Informatics, Computing, and Cyber Systems, Northern Arizona University, Flagstaff, AZ 86011
-<sup>2</sup> Department of Biological Sciences, Northern Arizona University, Flagstaff, AZ 86011
-<sup>3</sup> Center for Ecosystem Science and Society, Northern Arizona University, Flagstaff, AZ 86011
-<sup>4</sup> Department of Biology, University of New Mexico, Albuquerque, NM 87131
-<sup>5</sup> Southwest Biological Research Center, US Geological Survey, Flagstaff, AZ 86001
+<sup>1</sup> School of Informatics, Computing, and Cyber Systems, Northern Arizona University, Flagstaff, AZ 86011 <br/>
+<sup>2</sup> Department of Biological Sciences, Northern Arizona University, Flagstaff, AZ 86011 <br/>
+<sup>3</sup> Center for Ecosystem Science and Society, Northern Arizona University, Flagstaff, AZ 86011 <br/>
+<sup>4</sup> Department of Biology, University of New Mexico, Albuquerque, NM 87131 <br/>
+<sup>5</sup> Southwest Biological Research Center, US Geological Survey, Flagstaff, AZ 86001 <br/>
 
 ## Overview
 
