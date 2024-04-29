@@ -1,7 +1,17 @@
 # NMEG Isotopes
-## By: Kimberly Samuels-Crow, Emma Reich, Kiona Ogle, Marcy Litvak
+## By: Kimberly Samuels-Crow<sup>1</sup>, Emma Reich<sup>1</sup>, Kiona Ogle<sup>1,2,3</sup>, Marcy Litvak<sup>4</sup>, John Bradford<sup>5</sup>, Daniel Schlaepfer<sup>5</sup>
 
-Isotope data (δ<sup>2</sup>H [δD] and δ<sup>18</sup>O) from stems and soil collected at New Mexico Elevation Gradient sites in 2019 and 2021.
+### Affiliations
+
+<sup>1</sup> School of Informatics, Computing, and Cyber Systems, Northern Arizona University, Flagstaff, AZ 86011
+<sup>2</sup> Department of Biological Sciences, Northern Arizona University, Flagstaff, AZ 86011
+<sup>3</sup> Center for Ecosystem Science and Society, Northern Arizona University, Flagstaff, AZ 86011
+<sup>4</sup> Department of Biology, University of New Mexico, Albuquerque, NM 87131
+<sup>5</sup> Southwest Biological Research Center, US Geological Survey, Flagstaff, AZ 86001
+
+## Overview
+
+This repository contains isotope data (δ<sup>2</sup>H [δD] and δ<sup>18</sup>O) from water extracted from stems and soil collected at New Mexico Elevation Gradient sites in 2019 and 2021.
 
 ## 1. Methods
 
