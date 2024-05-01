@@ -9,7 +9,7 @@
 <sup>4</sup> Department of Biology, University of New Mexico, Albuquerque, NM 87131 <br/>
 <sup>5</sup> Southwest Biological Research Center, US Geological Survey, Flagstaff, AZ 86001 <br/>
 
-[DOI https://zenodo.org/doi/10.5281/zenodo.11100049](https://zenodo.org/badge/790395069.svg)
+[![DOI](https://zenodo.org/badge/790395069.svg)](https://zenodo.org/doi/10.5281/zenodo.11100049)
 
 ## Overview
 
